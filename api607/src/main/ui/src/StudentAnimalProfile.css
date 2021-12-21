@@ -1,0 +1,125 @@
+@media all and (min-width: 480px) {
+  .StudentAnimalProfile {
+    padding: 60px 0;
+  }
+
+  .StudentAnimalProfile form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+
+  .StudentAnimalProfile-logout {
+    text-align: right;
+  }
+
+  .StudentAnimalProfile-grid-container {
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px 75px 75px 75px 250px 250px 250px;
+    grid-template-rows:  75px 75px 75px 75px 75px 75px 75px 75px 75px 75px;
+    padding: 10px;
+    grid-gap: 0cm;
+
+  }
+/*Animal Name*/
+  .StudentAnimalProfile-grid-item1 {
+    vertical-align: middle;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    grid-column: 1/span 6;
+    grid-row: 1;
+
+  }
+ /*Animal ID*/
+  .StudentAnimalProfile-grid-item2 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    grid-column: 8/ span 4;
+    grid-row: 1;
+  }
+  /*Status*/
+  .StudentAnimalProfile-grid-item3 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    grid-column: 13/span 5;
+    grid-row: 1;
+
+  }
+/*Button group */
+  .StudentAnimalProfile-grid-item4 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: left;
+    grid-column: 1/span 2 ;
+    grid-row: 2/span 8;
+  }
+  /*Animal Info*/
+  .StudentAnimalProfile-grid-item5{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: left;
+    /*font-style: oblique;*/
+    /*font-size: large;*/
+    grid-column: 1/ span 6;
+    grid-row: 2/span 8;
+  }
+/*Result Area*/
+  .StudentAnimalProfile-grid-item6 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: justify;
+    grid-column: 8/ span 10;
+    grid-row: 2/ span 9;
+
+  }
+/*result Area toggles*/
+  .StudentAnimalProfile-grid-item7 {
+    display: inline-block;
+    border: none;
+
+    text-align: center;
+    grid-column: 8/span 10;
+    grid-row: 11;
+
+  }
+  .StudentAnimalProfile-comment-item1{
+    height: 100px;
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+
+    .StudentAnimalProfile-submit-item1{
+      height: 50px;
+      width: 25%;
+      float: center;
+      margin: 0 12.5%;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      text-align: center;
+      background: green;
+      color: white;
+    }
+
+    .StudentAnimalProfile-photo-item1{
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      text-align: center;
+      margin: 1% 1%;
+      width: 300px;
+      height: 300px;
+    }
+    .StudentAnimalProfile-photo-item2{
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      text-align: center;
+      margin: 1% 1%;
+      width: 300px;
+      height: 300px;
+    }
+
+    .StudentAnimalProfile-photo-item3{
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      text-align: center;
+      margin: 1% 1%;
+      width: 300px;
+      height: 300px;
+    }
+
+}

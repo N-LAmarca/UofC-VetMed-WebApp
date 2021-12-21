@@ -1,0 +1,33 @@
+@media all and (min-width: 480px) {
+
+  .PersonalSettings-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    padding: 10px;
+    grid-gap: 0cm;
+  }
+/*Title:Personal Settings Page*/
+  .PersonalSettings-grid-item1 {
+    border: none;
+    text-align: center;
+    grid-column: 5/span 4;
+    grid-row: 2;
+  }
+
+ /*Form*/
+  .PersonalSettings-grid-item2 {
+    border: none;
+    text-align: left;
+    grid-column: 5/span 4;
+    grid-row: 5;
+  }
+
+  /*Save*/
+  .PersonalSettings-grid-item3 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    grid-column: 6/span 2;
+    grid-row: 11;
+  }
+}

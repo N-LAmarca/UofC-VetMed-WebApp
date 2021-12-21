@@ -1,0 +1,125 @@
+@media all and (min-width: 480px) {
+  .TeacherAnimalProfile {
+    padding: 60px 0;
+  }
+
+  .TeacherAnimalProfile form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+
+  .TeacherAnimalProfile-logout {
+    text-align: right;
+  }
+
+  .TeacherAnimalProfile-grid-container {
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px 75px 75px 75px 250px 250px 250px;
+    grid-template-rows:  75px 75px 75px 75px 75px 75px 75px 75px 75px 75px;
+    padding: 10px;
+    grid-gap: 0cm;
+
+  }
+/*Animal Name*/
+  .TeacherAnimalProfile-grid-item1 {
+    vertical-align: middle;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    grid-column: 1/span 6;
+    grid-row: 1;
+
+  }
+ /*Animal ID*/
+  .TeacherAnimalProfile-grid-item2 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    grid-column: 8/ span 4;
+    grid-row: 1;
+  }
+  /*Status*/
+  .TeacherAnimalProfile-grid-item3 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    grid-column: 13/span 5;
+    grid-row: 1;
+
+  }
+/*Button group */
+  .TeacherAnimalProfile-grid-item4 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: left;
+    grid-column: 1/span 2 ;
+    grid-row: 2/span 8;
+  }
+  /*Animal Info*/
+  .TeacherAnimalProfile-grid-item5{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: left;
+    /*font-style: oblique;*/
+    /*font-size: large;*/
+    grid-column: 1/ span 6;
+    grid-row: 2/span 8;
+  }
+/*Result Area*/
+  .TeacherAnimalProfile-grid-item6 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: justify;
+    grid-column: 8/ span 10;
+    grid-row: 2/ span 9;
+
+  }
+/*result Area toggles*/
+  .TeacherAnimalProfile-grid-item7 {
+    display: inline-block;
+    border: none;
+
+    text-align: center;
+    grid-column: 8/span 10;
+    grid-row: 11;
+
+  }
+  .TeacherAnimalProfile-comment-item1{
+    height: 100px;
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+
+    .TeacherAnimalProfile-submit-item1{
+      height: 50px;
+      width: 25%;
+      float: center;
+      margin: 0 12.5%;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      text-align: center;
+      background: green;
+      color: white;
+    }
+
+    .TeacherAnimalProfile-photo-item1{
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      text-align: center;
+      margin: 1% 1%;
+      width: 300px;
+      height: 300px;
+    }
+    .TeacherAnimalProfile-photo-item2{
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      text-align: center;
+      margin: 1% 1%;
+      width: 300px;
+      height: 300px;
+    }
+
+    .TeacherAnimalProfile-photo-item3{
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      text-align: center;
+      margin: 1% 1%;
+      width: 300px;
+      height: 300px;
+    }
+
+}

@@ -1,0 +1,125 @@
+@media all and (min-width: 480px) {
+  .AdminAnimalProfile {
+    padding: 60px 0;
+  }
+
+  .AdminAnimalProfile form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+
+  .AdminAnimalProfile-logout {
+    text-align: right;
+  }
+
+  .AdminAnimalProfile-grid-container {
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px 75px 75px 75px 250px 250px 250px;
+    grid-template-rows:  75px 75px 75px 75px 75px 75px 75px 75px 75px 75px;
+    padding: 10px;
+    grid-gap: 0cm;
+
+  }
+
+  .AdminAnimalProfile-grid-item1 {
+    vertical-align: middle;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    grid-column: 1/span 6;
+    grid-row: 1;
+
+  }
+
+  .AdminAnimalProfile-grid-item2 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    grid-column: 8/ span 4;
+    grid-row: 1;
+  }
+
+  .AdminAnimalProfile-grid-item3 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    grid-column: 13/span 5;
+    grid-row: 1;
+
+  }
+
+  .AdminAnimalProfile-grid-item4 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: left;
+    grid-column: 1/span 2 ;
+    grid-row: 2/span 8;
+  }
+
+  .AdminAnimalProfile-grid-item5{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: left;
+    /*font-style: oblique;*/
+    /*font-size: large;*/
+    grid-column: 1/ span 6;
+    grid-row: 2/span 8;
+  }
+
+  .AdminAnimalProfile-grid-item6 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: justify;
+    grid-column: 8/ span 10;
+    grid-row: 2/ span 9;
+
+  }
+
+  .AdminAnimalProfile-grid-item7 {
+    display: inline-block;
+    border: none;
+
+    text-align: center;
+    grid-column: 8/span 10;
+    grid-row: 11;
+
+  }
+
+  .AdminAnimalProfile-comment-item1{
+    height: 100px;
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+
+    .AdminAnimalProfile-submit-item1{
+      height: 50px;
+      width: 25%;
+      float: center;
+      margin: 0 12.5%;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      text-align: center;
+      background: green;
+      color: white;
+    }
+
+    .AdminAnimalProfile-photo-item1{
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      text-align: center;
+      margin: 1% 1%;
+      width: 300px;
+      height: 300px;
+    }
+    .AdminAnimalProfile-photo-item2{
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      text-align: center;
+      margin: 1% 1%;
+      width: 300px;
+      height: 300px;
+    }
+
+    .AdminAnimalProfile-photo-item3{
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      text-align: center;
+      margin: 1% 1%;
+      width: 300px;
+      height: 300px;
+    }
+}
